@@ -16,7 +16,7 @@ Exercício proposto pela professora Rafaella Matos, da matéria de Introdução 
 
 <br>
 
-## 🌐 Autores
+## 🌐 Autor
 
 - Hailton de Melo Lima Neto
 
