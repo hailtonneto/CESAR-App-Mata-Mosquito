@@ -1,0 +1,60 @@
+/* Mosquitos */
+.mosquito-p {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito-m {
+    width: 100px;
+    height: 100px;
+}
+
+.mosquito-g {
+    width: 150px;
+    height: 150px;
+}
+
+.lado-a{
+    transform: scaleX(1); /*Nada vai acontecer, permanece como está*/
+}
+    
+.lado-b{
+    transform: scaleX(-1); /*Inverte a imagem na horizontal*/
+}
+
+/*Background
+-----------------*/
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*Container Vidas
+-----------------*/
+.container-vidas{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 190px;
+    padding: 10px;
+    border-top: 1px solid white;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+    
+.cronometro{
+    float: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*Geral
+-----------------*/
+html{
+    cursor: url(../img/mata_mosquito.png) 30 30, auto;
+}
